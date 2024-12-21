@@ -1,0 +1,23 @@
+
+.home {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; 
+    padding:  0px;
+  }
+  
+
+  .content-area {
+    flex: 1; 
+    margin-left: 280px; 
+    padding: 20px;
+    background-color: #F8F0E5;
+  }
+
+  
+  .content-area {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  

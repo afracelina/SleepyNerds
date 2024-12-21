@@ -1,0 +1,169 @@
+/* Main container for the dashboard */
+.auberge-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header section with title and button group */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 1.8em;
+    color: #E3C9A4;
+    width: 600px;
+    margin: 0;
+  }
+  
+  /* Button group style */
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-btn {
+    background-color: #465D31;
+    color: white;
+  }
+  
+  .update-btn {
+    background-color: #465D31;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #465D31;
+    color: white;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* Cards layout */
+  .auberge-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .auberge-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .auberge-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auberge-card h3 {
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  .auberge-card p {
+    color: black;
+    font-size: 0.95em;
+    margin: 5px 0;
+  }
+  
+  .auberge-images {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .auberge-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auberge-offers {
+    margin-top: 15px;
+  }
+  
+  .auberge-offers p {
+    font-size: 1em;
+    color: #4CAF50;
+    margin: 5px 0;
+  }
+  
+  .auberge-list p {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+  }
+  .search-container{
+    display: flex;
+    gap: 3px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /* Input field styling */
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    border-color: black;
+  }
+  
+  .search-bar {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+  }
+  .search-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  .card-buttons{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+  }
